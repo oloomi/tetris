@@ -7,13 +7,13 @@ I implemented this game more than 10 years ago when I was in the second semester
 #### Windows
 Microsoft Visual Studio.NET and Visual Express Edition: Use the project files and solution files provided in the CImg Library package (directory 'compilation/') to see how it works (see CImg library documentation).
 
-####Linux
+#### Linux
 ```
 sudo apt-get install libx11-dev
 g++ -o tetris.o main.cpp tetris.cpp -O2 -L/usr/X11R6/lib -lm -lpthread -lX11
 ```
 
-####Mac OS
+#### Mac OS
 ```
 g++ -o tetris.o main.cpp tetris.cpp -O2 -lm -lpthread -I/usr/X11R6/include -L/usr/X11R6/lib -lm -lpthread -lX11
 ```
