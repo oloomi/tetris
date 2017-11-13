@@ -21,4 +21,4 @@ g++ -o tetris.o main.cpp tetris.cpp -O2 -lm -lpthread -I/usr/X11R6/include -L/us
 ### Enjoy!
 You can also use the pre-built Windows and Linux binaries found in the `bin` folder.
 
-![alt text](https://github.com/oloomi/tetris/img/screenshot.png "Tetris screenshot")
+![alt text](/img/screenshot.png?raw=true "Tetris screenshot")
